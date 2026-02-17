@@ -1,0 +1,111 @@
+/* GÉNÉRIQUE */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* ÉLÉMENTS */
+
+body{
+
+margin: 0;
+padding: 0;
+
+}
+
+a{
+
+text-decoration: none;
+color: black;
+
+}
+
+h1{
+
+color: #ffffff;
+font-family: "Roboto", sans-serif;
+font-size: 6rem;
+font-weight: 900;
+letter-spacing: 30.6px;
+margin-top: 0;
+padding: 70px 0;
+
+}
+
+h2{
+
+color: black;
+font-family: "Lato", sans-serif;
+letter-spacing: 2.6px;
+font-weight: 100;
+font-size: 3rem;
+margin: 0;
+
+}
+
+q{
+
+color: black;
+font-family: "Lato", sans-serif;
+letter-spacing: 2.6px;
+font-weight: 100;
+font-size: 3rem;
+
+}
+
+/* COMPONENTS */
+
+.wrapper{
+
+max-width: 1090px;    
+margin-right:  auto;
+margin-left: auto;
+
+}
+
+header{
+
+background-color: #34495E ;
+
+}
+
+
+.quote{
+
+display: flex;
+flex-direction: column;
+align-items: end;
+} 
+
+.rond{
+
+border: 2px solid #d35400;
+
+color: #d35400;
+background-color: #ffffff;
+font-size: 2rem;
+height: 200px;
+width: 200px;
+border-radius: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.carte{
+
+display: flex;
+width: 100%;
+
+
+}
