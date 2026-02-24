@@ -100,12 +100,69 @@ align-items: center;
 
 }
 
+.lignes .cartes {
+    display: flex;
+    flex-direction: column;
+    gap: 0px ;
+    width: 100%;
+    margin-top: 40px;
+}
 
 
-.carte{
 
-display: flex;
-width: 100%;
-
+.carte {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
 
 }
+
+.carte {
+    flex-direction: row;
+    text-align: left;
+}
+
+.carte:hover {
+background-color: #BDC3C7 ;
+}
+
+
+
+.consignes .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 40px;  
+    margin-top: 40px;
+}
+
+
+
+footer {
+    background-color: #2980B9;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p  {
+
+color: black;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+margin: 0;
+
+}
+
+.bouton {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
